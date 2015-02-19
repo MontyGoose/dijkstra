@@ -1,0 +1,35 @@
+{
+  "name": "Dijkstra",
+  "version": "0.0.1",
+  "description": "Node module to perform Dijkstra on a Graph and return shortest paths",
+  "main": "./lib/index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "del": "^0.1.1",
+    "gulp": "^3.8.5",
+    "gulp-browserify": "^0.5.0",
+    "gulp-concat": "^2.2.0",
+    "gulp-mocha": "^2.0.0",
+    "gulp-uglify": "^0.3.1",
+    "lodash": "^3.2.0"
+  },
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MontyGoose/dijkstra.git"
+  },
+  "keywords": [
+    "Dijkstra",
+    "shortest path",
+    "graphing"
+  ],
+  "author": "Andy Parry",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/MontyGoose/dijkstra/issues"
+  },
+  "homepage": "https://github.com/MontyGoose/dijkstra"
+}
